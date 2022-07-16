@@ -44,6 +44,7 @@ body {
 }
 
 .activities {
+  flex-wrap:wrap;
   display: flex;
   justify-content: space-around;
   align-items: start;
@@ -65,9 +66,10 @@ body {
 }
 
 .card {
+  max-width:600px;
   display: flex;
   justify-content: space-around;
-  margin: 100px 300px;
+  margin: 0px auto;
   border: 4px double rgb(228, 37, 65);
   border-radius: 35px;
   background-image: linear-gradient(azure, aqua);
